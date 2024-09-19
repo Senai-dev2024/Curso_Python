@@ -1,4 +1,4 @@
-frase = 'Adriano Anaacleto'
+frase = 'aaaooo'
 i = 0
 
 qdt_mais_vezes = 0
@@ -12,7 +12,7 @@ while i < len(frase):
         continue
     qdt_mais_Atual = frase.count(letra_atual)
     
-    if qdt_mais_vezes <= qdt_mais_Atual:
+    if qdt_mais_vezes < qdt_mais_Atual:
         qdt_mais_vezes = qdt_mais_Atual
         letra_mais_vezes = letra_atual
     i += 1
